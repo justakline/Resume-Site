@@ -1,0 +1,102 @@
+/* Global styles */
+* {
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  .landing-container {
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .intro-section {
+    position: relative;
+    width: 100%;
+    height: 0px; // Set height to 0 to use padding for aspect ratio
+    padding-top: 56.25%; // 16:9 aspect ratio (9 / 16 * 100%)
+    overflow: hidden;
+    
+  }
+  .intro-section::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    background: rgba(0, 0, 0, 0.5); // Adjust transparency as needed
+    z-index: 1; // Ensure it's above the image but below the text
+  }
+  
+  .intro-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    
+  }
+  
+  
+  .headshot {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 15vw; // Adjust based on preference, vw makes it responsive
+    border-radius: 50%;
+    border: 2px solid black;
+    z-index: 2;
+  }
+  
+  .content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // Ensures the content block itself is centered and content within it is also centered
+    color: white;
+    text-shadow:  
+   
+    2px  2px 0 rgba(0, 0, 0, 0.5); /* Outline effect */;
+    
+    h1 {
+      margin: 0;
+      font-size: 7vw; // Example font size, adjust as needed
+      line-height: 1.2; // Adjust this based on your font size to prevent excessive movement
+      // Ensure line height is not too high to avoid pushing other content away
+      width: 120%
+    }
+
+    h2{
+     font-size: 5vw;   
+    }
+    p{
+        font-size: 3vw;
+    }
+    button{
+        background-color: white;
+        border:none;
+        width: 12vw;
+        height: 3vw;
+        margin-top: 2%;
+        color: black;
+        font-size: 1vw;
+        border-radius: 0.6em;
+        transition: all 0.2s
+    }
+    button:hover{
+        background-color: rgba(200, 200, 2000, 0.5);
+        cursor: pointer
+    }
+
+
+  }
+
+  
+  
