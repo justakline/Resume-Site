@@ -14,7 +14,7 @@ function ProfessionalSection() {
                     From designing Java-based file systems to automating eCommerce arbitrage between Walmart and eBay, my projects stand as testaments to my versatility and dedication
                     to back-end innovation and forward-thinking development strategies.
                 </text>
-                <button>Examples Here</button>
+                <a href='https://github.com/justakline' target="_blank"><button >Examples Here</button></a>
             </div>
         </div>
 

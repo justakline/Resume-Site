@@ -14,7 +14,8 @@ function ProfessionalSection() {
                     My hands-on development role at Stake Game led to a 45% surge in user engagement, thanks to my integration of user-friendly features and smart contract expertise. 
                     Committed to robust and secure DeFi operations, I employ test-driven development and CI/CD practices to consistently deliver quality and adapt to feedback.
                 </text>
-                <button>Learn more</button>
+                <a target='_blank' href={`${process.env.PUBLIC_URL}/resume.pdf`}><button>Download Resume</button></a>
+                {/* <button>Download Resume</button> */}
             </div> 
             <img src={resume} className='section-images'/>
         </div>

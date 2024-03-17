@@ -7,6 +7,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import { Link } from 'react-router-dom';
 
 
 
@@ -15,7 +16,7 @@ export default function Landing () {
     return( <>
         <div className="landing-container">
             <IntroSection/>
-            <h1 className="about" >About me <hr/></h1>
+            <h1 className="about" >About me <hr/></h1> 
             {/* <h1 className="about" >About me <hr/></h1> */}
 
             <div className="full-accordian">

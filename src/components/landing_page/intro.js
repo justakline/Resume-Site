@@ -14,7 +14,7 @@ function IntroSection() {
             {/* <p>Contact Me</p> */}
             <p>justakline@gmail.com</p>
             <p>(443)-977-0607</p>
-            <button> <span><b>See portfolio</b></span></button>
+            <a href='https://github.com/justakline' target='_blank'><button > <span><b>See portfolio</b></span></button></a>
           </div>
         </div>
       );
