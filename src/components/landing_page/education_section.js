@@ -4,13 +4,16 @@ import towson from '../../assets/towson-university.png'
 function EducationSection() {
 
     return(
-        <div>
+        <div className='education'>
             
-        <img src={towson} className='Section-Images'/>
-        <h4>Education</h4>
-        <text>I graduated from Towson University with a <b>B.S.</b> in <b>Computer Science</b> with a Minor in <b>Mathematics</b> in December 2023.
-                I took courses in Artificial Intellegence, Web3/Blockchain, Object Oriented Design!
-        </text>
+            <img src={towson} className='section-images-school'/>
+            <div >
+                {/* <h3>Education</h3> */}
+                <text>I graduated from Towson University with a B.S.in Computer Science with a Minor in Mathematics in December 2023.
+                        I took courses in Artificial Intellegence, Web3/Blockchain, Object Oriented Design!
+                </text>
+            </div>
+            
         </div>
 
 
