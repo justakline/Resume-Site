@@ -6,7 +6,7 @@ function EducationSection() {
     return(
         <div className='education'>
             
-            <img src={towson} className='section-images-school'/>
+            <img src={towson} alt=""  className='section-images-school' />
             <div >
                 {/* <h3>Education</h3> */}
                 <text>I graduated from Towson University with a B.S.in Computer Science with a Minor in Mathematics in December 2023.

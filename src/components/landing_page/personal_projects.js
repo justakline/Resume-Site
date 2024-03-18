@@ -4,7 +4,7 @@ function ProfessionalSection() {
 
     return(
         <div className='personal-projects'>
-            <img src={project} className='Section-Images'/>
+            <img src={project} className='Section-Images' alt="project"/>
             <div>
 
                 {/* <h3>Personal Projects</h3> */}
@@ -14,7 +14,7 @@ function ProfessionalSection() {
                     From designing Java-based file systems to automating eCommerce arbitrage between Walmart and eBay, my projects stand as testaments to my versatility and dedication
                     to back-end innovation and forward-thinking development strategies.
                 </text>
-                <a href='https://github.com/justakline' target="_blank"><button >Examples Here</button></a>
+                <a href='https://github.com/justakline'  rel="noopener noreferrer" alt="github link"  target="_blank"><button >Examples Here</button></a>
             </div>
         </div>
 
