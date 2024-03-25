@@ -17,6 +17,14 @@
   .landing-container {
     width: 100vw;
     overflow: hidden;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    button{
+      text-align: center;
+      font-size: 30px;
+
+    }
 
   }
 
@@ -155,6 +163,7 @@
   
   .about{
     text-align: center;
+   
     margin-top :40px;
     padding: 0;
     color: var(--secondary--text-color);
@@ -162,8 +171,8 @@
    
 
     hr{
-      border-top: double #333;
-      margin: 10px 40% 0 40%;
+      border-top: double  var(--secondary--text-color);;
+      margin: 10px 40% 10px 40%;
       z-index: 1;
       // position: relative;
       // margin-top: 40px;
@@ -172,8 +181,8 @@
     hr::after{
       content: "§";
       position: absolute;
-      transform: translateY(-60%);
-      font-size: 0.5em;
+      transform: translateX(-80%) translateY(-60%) ;
+      font-size: 0.4em;
       background-color: white;
       z-index: 2;
 
@@ -192,26 +201,53 @@
   padding-left: 5%;
   padding-right: 5%;
   align-items: center;
+  justify-content: center;
   height: var( --about-height);
   color: var(--secondary--text-color);
   img{
     flex:5.2;
   }
   div{
-      flex:4.8;
-      
-      h3{
+    flex:4.8;
+    align-items: center;
+    justify-content: center;
+    
+    h3{
+      text-align: center;
+      font-size: var(--about-header-font-size);
+    }
+    
+    text{
+      color: var(--secondary--text-color);
+      // color: green;
+      text-align: left;
+      font-size: var(--about-content-font-size);
+      line-height:  var(--about-header-font-size);
+    }
+    button{
         text-align: center;
-        font-size: var(--about-header-font-size);
+        margin-left: 28%;
       }
 
-      text{
-        color: var(--secondary--text-color);
-        // color: green;
-        font-size: var(--about-content-font-size);
-        line-height:  var(--about-header-font-size);
-      }
+      
   }
+  button{
+    margin-top: 5%;
+    background-color: var(--secondary-color);
+    // background-color: green;
+    color: white;
+    border: none;
+    width: 15vw;
+    height: 3vw;
+    border-radius: var(--button-radius);
+    font-size: var(--about-content-font-size);
+  }
+  
+button:hover{
+    background-color: rgba(53, 167, 255);
+    cursor: pointer; 
+    transition:  0.2s
+}
 }
 .professional{
   --flex-amount:4.75;
@@ -309,6 +345,7 @@
         font-size: var(--about-content-font-size);
       }
       
+      
     button:hover{
         background-color: rgba(53, 167, 255);
         cursor: pointer; 
@@ -335,11 +372,12 @@
   align-items: center;
   h1{
     color: var(--secondary--text-color);
-    font-size: 3vw;
+    font-size: 4vw;
     
   }
   hr{
-    border-top: double #333;
+ 
+    border-top: double  var(--secondary--text-color);
     margin: 10px 40% 10px 40%;
     z-index: 1;
     // position: relative;
@@ -350,7 +388,7 @@
     content: "§";
     position: absolute;
     transform: translateX(-50%) translateY(-61%);
-    font-size: 0.5em;
+    font-size: 0.4em;
     background-color: white;
     z-index: 2;
 

@@ -12,8 +12,8 @@ function EducationSection() {
                 <text>I graduated from Towson University with a B.S.in Computer Science with a Minor in Mathematics in December 2023.
                         I took courses in Artificial Intellegence, Web3/Blockchain, Object Oriented Design!
                 </text>
+               <a target='_blank' href={`${process.env.PUBLIC_URL}/transcript.pdf`} rel="noopener noreferrer"><button>Download Transcript</button></a>
             </div>
-            
         </div>
 
 

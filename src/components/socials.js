@@ -7,7 +7,7 @@ function Socials() {
 
     return(
         <div className="social-section">
-             <h1 >Social Media <hr/></h1>
+             <h1 >    Social Media<hr/></h1>
             <div className="socials">
                 
                 <a href="https://www.linkedin.com/in/justakline/" target="_blank" alt="linkedin"rel="noopener noreferrer" >

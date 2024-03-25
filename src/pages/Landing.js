@@ -15,7 +15,8 @@ export default function Landing () {
     return( <>
         <div className="landing-container">
             <IntroSection/>
-            <h1 className="about" >About me <hr/></h1> 
+
+            <h1 className="about" >About Me <hr/></h1> 
             {/* <h1 className="about" >About me <hr/></h1> */}
 
             <div className="full-accordian">
